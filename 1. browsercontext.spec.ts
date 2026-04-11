@@ -1,4 +1,4 @@
-// browsewr context is used to creare multiple browser session in multiple incognito windows
+// browsewr context is used to create multiple browser session in multiple incognito windows
 //each session is seperate and has its own cookies and settings, they does not interact with each other 
 // useful for chatbots where two different users interact with same time login
 // selenium has this limitation , if we save chnages for one user then we have to do multiple time login , playwright solves the problem very well
