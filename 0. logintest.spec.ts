@@ -1,21 +1,21 @@
 //steps to be performed:
-// go to browser
-//open page
-//enter url
-//find locators for email and password
-// enter credentials and click login button
-// check the page title 
+    // go to browser
+    //open page
+    //enter url
+    //find locators for email and password
+    // enter credentials and click login button
+    // check the page title 
 
 
 // Initially we import test, expect , browser,page, locators from playwright
-// here test is a function variable in which we write our test, expect is used to compare any condition with expected result
-// browser , page and locators are variable used for their name
+    // here test is a function variable in which we write our test, expect is used to compare any condition with expected result
+    // browser , page and locators are variable used for their name
 
 // then we impoer browser types , chromium, firefox and safari from playwright or playwright/test
 
 // then we write our test followed by {} , in this we user async function , as an arrow function , which is used to counter the asynchronous api or browser calls
-// async function always use keyword await, to invoke the custom waits 
-// here we use locators as term for webelemnts 
+    // async function always use keyword await, to invoke the custom waits 
+    // here we use locators as term for webelemnts 
 
 // to run our test we use command "npx playwright test" in terminal
 
