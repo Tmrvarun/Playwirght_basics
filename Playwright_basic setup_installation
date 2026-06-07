@@ -1,0 +1,23 @@
+Part 1:
+To start , first download node js >> Then install Visual studio code
+Then in some drive create a project folder >> Then open the folder in Vs code editor
+Then install playwright through vs terminal by command >> npm init playwright@latest
+Then installer will ask about the language >> typescript/javascript
+Then it ask you about test directory >> where will you store your tests
+Then installer asks about github action wokflow and then it asks you about the browsers to be installed
+Then all the folders and package.json file gets saved in your project directory >> also one demo example file gets saved for syntax and format 
+
+Part 2: Playwright time travel/ Test runner
+
+This is a UI mode in which you can see your test and debug your test 
+this can be installed by terminal >> npx plarwright test --ui
+or 
+Can be installed by extensions >> go to settngs in vs code >> goto extensions and search for playwright test and click install >> it is developed by microsfot to monitor our test 
+
+Then we have to install playwright test through terminal to our project >> command >> npx install playwright --same --dev
+Then install playwright test to write our tests >> command >> npx install @playwright/test --same --dev 
+Note: both versions of playwright and playwright test should be same in package.json file
+Then we have to initialize typescript as well >> command >> npx install typescript --save --dev
+Then run command >> npx tsc --init
+
+IMP: To run a test in playwright use command: >> npx playwright test testname.spec.ts
