@@ -16,6 +16,7 @@ test('chaining', async()=>{
     // Approach 1: 
 
     //const form= await page.locator('form#Form_getForm >> #Form_getForm_Name').fill("Varun Tomar");
+    // In console you will type the comman for particular element "playwright.$('form#Form_getForm >> #Form_getForm_Contact')"
 
     // approach 2: 
 
