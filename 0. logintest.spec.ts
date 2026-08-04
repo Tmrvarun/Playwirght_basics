@@ -11,9 +11,9 @@
     // here test is a function variable in which we write our test, expect is used to compare any condition with expected result
     // browser , page and locators are variable used for their name
 
-// then we impoer browser types , chromium, firefox and safari from playwright or playwright/test
+// then we import browser types , chromium, firefox and safari from playwright or playwright/test
 
-// then we write our test followed by {} , in this we user async function , as an arrow function , which is used to counter the asynchronous api or browser calls
+// then we write our test followed by {} , in this we use async function , as an arrow function , which is used to counter the asynchronous api or browser calls
     // async function always use keyword await, to invoke the custom waits 
     // here we use locators as term for webelemnts 
 
